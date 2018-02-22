@@ -1,3 +1,6 @@
+#Courtesy of code >>>>> google search
+
+
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
@@ -5,10 +8,10 @@ from kafka import SimpleProducer, KafkaClient
 import json
 import time
 
-access_token = "966056161278615552-wRpIf7lRSHpBVP42p5tpVEY1AVtsPkk"
-access_token_secret =  "17Io47qFhEFKDWiUpBtGTKulgsKpWAJ260KIU1z2WOvLj"
-consumer_key =  "rltd8Eav7syHQfzKLXisAnvFu"
-consumer_secret =  "vVclXwLua2k8RAbmixlniKutG9vX8u7lJxMj5uzllTXtVmHb22"
+access_token = "add your own"
+access_token_secret =  "add your own"
+consumer_key =  "add your own"
+consumer_secret =  "add your own"
 
 class StdOutListener(StreamListener):
     
